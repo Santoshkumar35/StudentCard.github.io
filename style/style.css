@@ -1,0 +1,131 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 200px; */
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(199, 199, 199);
+    color: grey;
+}
+
+.card{
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 400px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 5px black; */
+    box-shadow: 5px 5px 5px grey , -5px -5px 5px rgba(163, 163, 163, 0.526);
+    
+}
+.profileimage{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid rgb(220, 220, 220);
+    /* box-shadow: 5px grey; */
+    box-shadow: 2px 2px 2px grey , -2px -2px 2px rgb(250, 249, 249);
+}
+.ProfileName{
+    font-weight: 600;
+}
+.ProfiileDetail{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.socialmedia .blue  i:first-child{
+    color: rgb(28, 28, 233);
+}
+.socialmedia.rgb  i:nth-child(2){
+    color: rgb(98, 98, 190);
+}
+.socialmedia .orange i:nth-child(3){
+    color: rgb(207, 62, 62);
+}
+.socialmedia i:last-child{
+    color: rgb(244, 12, 12);
+}
+
+.socialmedia   i{
+    border: 5px solid rgb(220, 220, 220);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px grey , -2px -2px 2px rgb(250, 249, 249);
+
+}
+
+.topsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: red; */
+}
+.socialmedia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.socialmedia i{
+    font-size: 25px;
+}
+.myBtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myBtn button{
+    padding: 5px 15px;
+    color: grey;
+    border: 5px solid rgb(220, 220, 220);
+    border-radius:15px;
+    box-shadow: 2px 2px 2px grey , -2px -2px 2px rgb(250, 249, 249);
+
+}
+.likeAndsection{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 10px; */
+
+}
+.likeAndsection div{
+    margin-right: 10px;
+    /* margin-right: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4px;
+}
+.likeAndsection div:nth-child(1){
+    border-right-style: solid;
+    /* gap: 5px; */
+    border-right-width: 2px;
+}
+.likeAndsection div:nth-child(2){
+    border-right: solid;
+    border-right-width: 2px;
+}
+.likeAndsection div p{
+    gap: 5px;
+}
